@@ -8,7 +8,7 @@ export default function Header() {
       <nav>
         <ol className="left">
           <li>
-            <h1 className="logo">
+            <h1>
               <Link to="/" className="header-link">
                 ProAca
               </Link>
@@ -20,13 +20,6 @@ export default function Header() {
             <h1>
               <Link to="/about" className="header-link">
                 ABOUT
-              </Link>
-            </h1>
-          </li>
-          <li>
-            <h1>
-              <Link to="/company" className="header-link">
-                COMPANY
               </Link>
             </h1>
           </li>

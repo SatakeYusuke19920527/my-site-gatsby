@@ -1,8 +1,6 @@
-// src/pages/index.js
 import React from "react"
 import { useStaticQuery, graphql } from 'gatsby';
 import Layout from "../components/layout"
-import Hero from "../components/hero"
 import PostLink from "../components/post-link"
 import Seo from '../components/seo';
 
@@ -33,7 +31,6 @@ export default function Blog() {
   );
   return (
     <Layout>
-      <Hero />
       <Seo title="ProAca Blog" description="ProAca Blog" />
       {query.allContentfulPost.edges.map(edge =>
         <PostLink key={edge.node.slug} post={edge.node} />

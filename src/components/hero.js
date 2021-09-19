@@ -9,9 +9,9 @@ export default function Hero() {
             </h1>
             <div className="hero-author">
                 <p className="hero-author-text">
-                    ProAcaは時間と魔法をつくる会社です。<br />
-                    ProAcaは時間と魔法をつくる会社です。<br />
-                    ProAcaは時間と魔法をつくる会社です。
+                    ProAcaはモダン開発に特化したプログラミングスクールです。<br />
+                    完全未経験からWEBサイト制作やSNSアプリ開発まで実装できるようになります。<br />
+                    プログラミングを通して成長し、進化した自分に感動してください。
                 </p>
             </div>
         </section>
