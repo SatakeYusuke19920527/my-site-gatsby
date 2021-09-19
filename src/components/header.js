@@ -1,4 +1,3 @@
-// src/components/header.js
 import React from "react"
 import { Link } from "gatsby"
 import "../styles/style.css"
@@ -6,11 +5,45 @@ import "../styles/style.css"
 export default function Header() {
   return (
     <header className="header-background">
-      <Link to="/" className="header-link">
-        <h1>
-          ProAca Web Site
-        </h1>      
-      </Link>
+      <nav>
+        <ol className="left">
+          <li>
+            <h1 className="logo">
+              <Link to="/" className="header-link">
+                ProAca
+              </Link>
+            </h1>
+          </li>
+        </ol>
+        <ol  className="right">
+          <li>
+            <h1>
+              <Link to="/about" className="header-link">
+                ABOUT
+              </Link>
+            </h1>
+          </li>
+          <li>
+            <h1>
+              <Link to="/company" className="header-link">
+                COMPANY
+              </Link>
+            </h1>
+          </li>
+          <li>
+            <h1>
+              <Link to="/blog" className="header-link">
+                BLOG
+              </Link>
+            </h1>
+          </li>
+          <li>
+            <h1 className="login">
+                LOGIN
+            </h1>
+          </li>
+        </ol>
+      </nav>
     </header>
   );
 }

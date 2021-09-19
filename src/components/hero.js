@@ -1,20 +1,19 @@
-// src/components/hero.js
 import React from "react"
 import "../styles/style.css"
 
 export default function Hero() {
     return (
-        <div className="hero">
+        <section className="hero">
             <h1 className="hero-text">
-                Welcome to my blog!<br />
-                Enjoy lots of posts.<br />
+                ProAca Inc.
             </h1>
             <div className="hero-author">
                 <p className="hero-author-text">
-                    Written by XXXX.<br />
-                    Front Engineer at Hoge.Inc. Love JavaScript.
+                    ProAcaは時間と魔法をつくる会社です。<br />
+                    ProAcaは時間と魔法をつくる会社です。<br />
+                    ProAcaは時間と魔法をつくる会社です。
                 </p>
             </div>
-        </div>
+        </section>
     )
 }

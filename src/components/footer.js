@@ -5,7 +5,7 @@ import "../styles/style.css"
 export default function Footer() {
     return (
         <footer className="footer">
-            © {new Date().getFullYear()} ProAca
+            © {new Date().getFullYear()} ProAca.inc
         </footer>
     )
 }

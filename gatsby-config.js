@@ -4,11 +4,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "ProAca Blog",
-    description: "Gatsbyで作成したブログサイトです。",
+    title: "ProAca.inc",
+    description: "ProAca",
     author: "SatYus"
   },
-  /* Your site config here */
   plugins: [
     {
       resolve: `gatsby-source-contentful`,
