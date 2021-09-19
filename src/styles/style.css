@@ -186,7 +186,6 @@ h1 {
   text-decoration: none;
 }
 
-/* src/styles/404.css */
 .not-found-message {
   margin: 40px auto;
   text-align: center;
@@ -197,4 +196,47 @@ h1 {
   height: auto;
   margin: 40px auto;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 40px;
+}
+
+/* ========================================== */
+/* 480px以下に適用されるCSS（スマホ用） */
+/* ========================================== */
+
+@media screen and (max-width: 600px) {
+  .header-background nav {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    padding: 0.1em;
+  }
+  .header-background nav .left {
+    width: 30%;
+    padding: 1em 1em;
+  }
+  .hero-author {
+    display: flex;
+    width: 90%;
+  }
+  .hero-text {
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color: #f75448;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 1rem 0;
+  }
+  .header-background nav {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .header-background nav .right {
+    justify-content: space-between;
+    width: 50%;
+    font-size: 0.6rem;
+    padding: 1em;
+  }
 }
