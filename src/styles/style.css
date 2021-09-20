@@ -41,9 +41,13 @@ h1 {
 }
 
 .header-background nav .right {
-  justify-content: space-around;
+  justify-content: end;
   width: 70%;
   font-size: 0.8rem;
+}
+
+.header-background nav .right li {
+  margin-right: 3em;
 }
 
 .header-background nav ol .logo {
@@ -238,5 +242,9 @@ h1 {
     width: 50%;
     font-size: 0.6rem;
     padding: 1em;
+  }
+
+  .header-background nav .right li {
+    margin-right: 0;
   }
 }
