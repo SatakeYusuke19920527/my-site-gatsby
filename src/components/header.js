@@ -31,8 +31,10 @@ export default function Header() {
             </h1>
           </li>
           <li>
-            <h1 className="login">
-                LOGIN
+            <h1>
+              <Link to="/contact" className="header-link">
+                  CONTACT
+              </Link>
             </h1>
           </li>
         </ol>

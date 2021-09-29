@@ -1,4 +1,3 @@
-// src/components/layout.js
 import React from "react"
 import "../styles/style.css"
 import Header from "./header"

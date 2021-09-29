@@ -9,6 +9,7 @@ module.exports = {
     author: "SatYus"
   },
   plugins: [
+    `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-source-contentful`,
       options: {

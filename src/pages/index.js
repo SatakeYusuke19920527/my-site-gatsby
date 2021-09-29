@@ -6,8 +6,8 @@ import Seo from '../components/seo';
 export default function Home() {
   return (
     <Layout>
+      <Seo title="ProAca.Inc" description="大阪市北区のプログラミングスクール" />
       <Hero />
-      <Seo title="ProAca.Inc" description="Gatsbyを使って作ったブログです" />
     </Layout>
   )
 }

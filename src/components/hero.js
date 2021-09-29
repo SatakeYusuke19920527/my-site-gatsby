@@ -1,7 +1,11 @@
 import React from "react"
+import Button from '@mui/material/Button';
 import "../styles/style.css"
 
 export default function Hero() {
+    const moveToContact = () => {
+
+    }
     return (
         <section className="hero">
             <h1 className="hero-text">
@@ -14,6 +18,15 @@ export default function Hero() {
                     プログラミングを通して成長し、進化した自分に感動してください。
                 </p>
             </div>
+            <div>
+                <Button
+                    variant="outlined"
+                    color="error"
+                    onClick={moveToContact}
+                >
+                    お問い合わせはこちら
+                </Button>
+            </div>
         </section>
-    )
+    );
 }

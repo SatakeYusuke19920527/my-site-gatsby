@@ -81,7 +81,6 @@ h1 {
 
 .hero-author {
   display: flex;
-  width: 90vw;
 }
 
 .hero-author-text {
@@ -89,6 +88,50 @@ h1 {
   font-size: 1.2rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  height: auto;
+  padding: 5rem;
+}
+
+.page-title {
+  font-size: 5rem;
+  line-height: 1.2;
+  color: #f75448;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 1rem 0 3rem 0;
+}
+
+.page-body {
+  display: flex;
+  width: 90vw;
+  flex-direction: column;
+}
+
+.page-second-title {
+  font-size: 2.5rem;
+  line-height: 1;
+  color: #f75448;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 2rem 0;
+}
+
+.classes {
+  width: 100%;
+  display: flex;
+}
+
+.classes-card {
+  display: grid;
+  margin: 50px 1rem;
+  cursor: pointer;
+}
+
+.btn-area {
+  color: #f75448;
 }
 
 .post-link {
