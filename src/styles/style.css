@@ -66,7 +66,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   width: 80%;
-  height: 100vh;
+  height: 80vh;
   margin: auto;
 }
 
@@ -301,5 +301,13 @@ h1 {
 
   .wrapper {
     padding: 1em;
+  }
+  .page-second-title {
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #f75448;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 2rem 0;
   }
 }

@@ -32,6 +32,16 @@ export default function Blog() {
   return (
     <Layout>
       <Seo title="ProAca Blog" description="ProAca Blog" />
+      <section className="wrapper">
+        <h1 className="page-title">
+          Blog
+        </h1>
+        <div className="page-body">
+          <h3 className="page-second-title">
+            日々の活動記録
+          </h3>
+        </div>
+      </section>
       {query.allContentfulPost.edges.map(edge =>
         <PostLink key={edge.node.slug} post={edge.node} />
       )}
