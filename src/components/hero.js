@@ -1,10 +1,11 @@
 import React from "react"
 import Button from '@mui/material/Button';
+import {navigate} from 'gatsby'
 import "../styles/style.css"
 
 export default function Hero() {
     const moveToContact = () => {
-
+        navigate('/contact/')
     }
     return (
         <section className="hero">

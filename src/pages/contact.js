@@ -1,36 +1,35 @@
 import React from "react";
+import { navigate } from "gatsby";
 import Layout from "../components/layout";
 import Seo from '../components/seo';
 
 const Contact = () => {
+  const linePush = () => {
+    navigate('https://line.me/ti/p/tN_hBvdvRI')
+  }
   return (
     <Layout>
-      <Seo title="Contact" description="ProAca.inc about" />
-      <form
-        className='contact_form'
-        name="Contact Form"
-        method="POST"
-        data-netlify="true"
-        action="/pages/success">
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select></label>
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
+      <Seo title="Contact" description="ProAca.inc contact" />
+      <section className="wrapper">
+        <h1 className="page-title">
+          Contact
+        </h1>
+        <div className="page-body">
+          <h3 className="page-second-title">
+            モダン開発に特化したプログラミングスクール
+          </h3>
+          <p className="hero-author-text">
+            ProAcaはモダン開発に特化したプログラミングスクールです。<br />
+            完全未経験からWEBサイト制作やSNSアプリ開発まで実装できるようになります。<br />
+            プログラミングを通して成長し、進化した自分に感動してください。
+          </p>
+          <button
+            onClick={linePush}
+          >
+            button
+          </button>
+        </div>
+      </section>
     </Layout>
   );
 }
