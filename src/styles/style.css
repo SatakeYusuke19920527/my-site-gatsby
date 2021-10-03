@@ -254,7 +254,7 @@ h1 {
 }
 
 /* ========================================== */
-/* 480px以下に適用されるCSS（スマホ用） */
+/* 600px以下に適用されるCSS（スマホ用） */
 /* ========================================== */
 
 @media screen and (max-width: 600px) {
@@ -268,6 +268,15 @@ h1 {
   .header-background nav .left {
     width: 30%;
     padding: 1em 1em;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
+    width: 80%;
   }
   .hero-author {
     display: flex;
