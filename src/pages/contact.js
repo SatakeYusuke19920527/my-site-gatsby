@@ -2,6 +2,7 @@ import React from "react";
 import { navigate } from "gatsby";
 import Layout from "../components/layout";
 import Seo from '../components/seo';
+import Button from '@mui/material/Button';
 
 const Contact = () => {
   const linePush = () => {
@@ -16,18 +17,29 @@ const Contact = () => {
         </h1>
         <div className="page-body">
           <h3 className="page-second-title">
-            モダン開発に特化したプログラミングスクール
+            お電話番号もしくはLINEよりお申し込みください。
           </h3>
           <p className="hero-author-text">
-            ProAcaはモダン開発に特化したプログラミングスクールです。<br />
-            完全未経験からWEBサイト制作やSNSアプリ開発まで実装できるようになります。<br />
-            プログラミングを通して成長し、進化した自分に感動してください。
+            LINE連絡時に以下項目をご記載の上、ご連絡をよろしくお願いします。<br />
+            氏名<br />
+            電話番号<br />
+            目的: 面談・無料体験授業の受講・その他<br />
           </p>
-          <button
-            onClick={linePush}
-          >
-            button
-          </button>
+          <Button
+                    variant="outlined"
+                    color="error"
+                    onClick={linePush}
+                >
+                    LINEでのお問い合わせはこちら
+          </Button>
+          <br />
+          <Button
+                    variant="outlined"
+                    color="error"
+                    href="tel:08084939461"
+                >
+                    お電話番号でのお問い合わせはこちら
+          </Button>
         </div>
       </section>
     </Layout>
