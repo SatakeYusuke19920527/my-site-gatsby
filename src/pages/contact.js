@@ -17,7 +17,7 @@ const Contact = () => {
         </h1>
         <div className="page-body">
           <h3 className="page-second-title">
-            お電話番号もしくはLINEよりお申し込みください。
+            お電話もしくはLINEよりお申し込みください。
           </h3>
           <p className="hero-author-text">
             LINE連絡時に以下項目をご記載の上、ご連絡をよろしくお願いします。<br />
