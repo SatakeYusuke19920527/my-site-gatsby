@@ -10,16 +10,14 @@ export default function Hero() {
     return (
         <section className="hero">
             <h1 className="hero-text">
-                ProAca Tech.
+                Hello Tech, <br />Hello Brand new myself.
             </h1>
             <div className="hero-author">
                 <p className="hero-author-text">
-                    ProAcaはモダン開発に特化したプログラミングスクールです。<br />
-                    完全未経験からWEBサイト制作やSNSアプリ開発まで実装できるようになります。<br />
-                    プログラミングを通して成長し、進化した自分に感動してください。
+                    自分自身に驚く準備はできましたか？
                 </p>
             </div>
-            <div>
+            <div className="btn-area">
                 <Button
                     variant="outlined"
                     color="error"

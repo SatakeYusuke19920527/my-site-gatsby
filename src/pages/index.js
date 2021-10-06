@@ -1,7 +1,8 @@
-import React from "react"
-import Layout from "../components/layout"
-import Hero from "../components/hero"
+import React from "react";
+import Layout from "../components/layout";
+import Hero from "../components/hero";
 import Seo from '../components/seo';
+import ReactImg from '../../static/react_img.png';
 
 export default function Home() {
   return (
@@ -31,9 +32,46 @@ export default function Home() {
           <h3 className="page-second-title">
             現在受講できるコース
           </h3>
-          <p className="hero-author-text">
-            Coming soon!!
-          </p>
+          <div className="hero-author-text">
+            <div className="cource-area">
+              <article className="cource-area-box">
+                <div className="cource-area-box-top">
+                  <img src={ReactImg} alt="react" className="cource-area-img" />
+                </div>
+                <div className="cource-area-box-bottom">
+                  <p className="title">HTML&CSS cource</p>
+                  <p>世界で最も使用されているフロントエンドのライブラリであるReact.jsを用いてアプリ開発をします。</p>
+                </div>
+              </article>
+              <article className="cource-area-box">
+                <div className="cource-area-box-top">
+                  <img src={ReactImg} alt="react" className="cource-area-img" />
+                </div>
+                <div className="cource-area-box-bottom">
+                  <p className="title">React development cource</p>
+                  <p>世界で最も使用されているフロントエンドのライブラリであるReact.jsを用いてアプリ開発をします。</p>
+                </div>
+              </article>
+              <article className="cource-area-box">
+                <div className="cource-area-box-top">
+                  <img src={ReactImg} alt="react" className="cource-area-img" />
+                </div>
+                <div className="cource-area-box-bottom">
+                  <p className="title">ReactNative development cource</p>
+                  <p>世界で最も使用されているフロントエンドのライブラリであるReact.jsを用いてアプリ開発をします。</p>
+                </div>
+              </article>
+              {/* <article className="cource-area-box">
+                <div className="cource-area-box-top">
+                  <img src={ReactImg} alt="react" className="cource-area-img" />
+                </div>
+                <div className="cource-area-box-bottom">
+                  <p className="title">Gatsby.js create Web Site cource</p>
+                  <p>世界で最も使用されているフロントエンドのライブラリであるReact.jsを用いてアプリ開発をします。</p>
+                </div>
+              </article> */}
+            </div>
+          </div>
         </div>
       </section>
     </Layout>

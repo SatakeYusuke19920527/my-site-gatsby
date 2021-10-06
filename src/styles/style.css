@@ -86,6 +86,7 @@ h1 {
 .hero-author-text {
   color: #595959;
   font-size: 1.2rem;
+  line-height: 2em;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -140,6 +141,7 @@ h1 {
 
 .btn-area {
   color: #f75448;
+  margin: 2em 0;
 }
 
 .post-link {
@@ -253,6 +255,52 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 40px;
 }
 
+.cource-area {
+  display: flex;
+}
+.cource-area-box {
+  width: 30%;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.cource-area-box-top {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.cource-area-box-bottom {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cource-area-box-bottom .title {
+  margin: 0;
+  font-size: 1rem;
+  margin-bottom: 0.8em;
+}
+
+.cource-area-box-bottom p {
+  margin: 0;
+  font-size: 0.8rem;
+  padding: 0em 1em;
+}
+
+.cource-area-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  max-width: 265px;
+}
+
 /* ========================================== */
 /* 600px以下に適用されるCSS（スマホ用） */
 /* ========================================== */
@@ -289,7 +337,7 @@ h1 {
   }
 
   .hero-text {
-    font-size: 3rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     color: #f75448;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -317,6 +365,14 @@ h1 {
   .wrapper {
     padding: 1em;
   }
+  .page-title {
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #f75448;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 1rem 0 3rem 0;
+  }
   .page-second-title {
     font-size: 1.6rem;
     line-height: 1;
@@ -324,5 +380,18 @@ h1 {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     margin: 2rem 0;
+  }
+  .cource-area {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+  }
+  .cource-area-box {
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    width: 90%;
   }
 }
