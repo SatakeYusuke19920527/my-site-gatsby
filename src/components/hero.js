@@ -10,7 +10,7 @@ export default function Hero() {
     return (
         <section className="hero">
             <h1 className="hero-text">
-                ProAca Inc.
+                ProAca Tech.
             </h1>
             <div className="hero-author">
                 <p className="hero-author-text">

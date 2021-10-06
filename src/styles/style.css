@@ -65,8 +65,9 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 80%;
+  width: 90%;
   height: 80vh;
+  padding: 5em;
 }
 
 .hero-text {
@@ -274,14 +275,21 @@ h1 {
     height: 80vh;
     justify-content: center;
     padding: 1em;
-    width: 80%;
+    width: 90%;
   }
   .hero-author {
     display: flex;
     width: 90%;
   }
+  .hero-author-text {
+    color: #595959;
+    font-size: 1rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
   .hero-text {
-    font-size: 4.5rem;
+    font-size: 3rem;
     line-height: 1.2;
     color: #f75448;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
