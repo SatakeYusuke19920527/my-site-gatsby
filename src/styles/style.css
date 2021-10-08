@@ -64,10 +64,10 @@ h1 {
 .hero {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 90%;
   height: 80vh;
-  padding: 5em;
+  justify-content: center;
+  padding: 5em 0 0 3em;
+  width: 90%;
 }
 
 .hero-text {
