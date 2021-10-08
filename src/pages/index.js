@@ -3,6 +3,8 @@ import Layout from "../components/layout";
 import Hero from "../components/hero";
 import Seo from '../components/seo';
 import ReactImg from '../../static/react_img.png';
+import HtmlCssImg from '../../static/html-css.png';
+import GatsbyImg from '../../static/gatsbyLogo.png';
 
 export default function Home() {
   return (
@@ -36,11 +38,11 @@ export default function Home() {
             <div className="cource-area">
               <article className="cource-area-box">
                 <div className="cource-area-box-top">
-                  <img src={ReactImg} alt="react" className="cource-area-img" />
+                  <img src={HtmlCssImg} alt="react" className="cource-area-img" />
                 </div>
                 <div className="cource-area-box-bottom">
                   <p className="title">HTML&CSS cource</p>
-                  <p>世界で最も使用されているフロントエンドのライブラリであるReact.jsを用いてアプリ開発をします。</p>
+                  <p>Webアプリケーションの基礎となるHTMLとCSSでWEBサイトを作成します。</p>
                 </div>
               </article>
               <article className="cource-area-box">
@@ -54,11 +56,11 @@ export default function Home() {
               </article>
               <article className="cource-area-box">
                 <div className="cource-area-box-top">
-                  <img src={ReactImg} alt="react" className="cource-area-img" />
+                  <img src={GatsbyImg} alt="react" className="cource-area-img" />
                 </div>
                 <div className="cource-area-box-bottom">
-                  <p className="title">ReactNative development cource</p>
-                  <p>世界で最も使用されているフロントエンドのライブラリであるReact.jsを用いてアプリ開発をします。</p>
+                  <p className="title">Gatsby development cource</p>
+                  <p>今、流行の最先端であるGatsbyjsを用いて、自分だけのWebサイトを作成します。</p>
                 </div>
               </article>
               {/* <article className="cource-area-box">
