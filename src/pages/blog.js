@@ -42,7 +42,7 @@ export default function Blog() {
           </h3>
         </div>
       </section>
-      {query.allContentfulPost.edges.map(edge =>
+      {query.allContentfulPost.edges.reverse().map(edge =>
         <PostLink key={edge.node.slug} post={edge.node} />
       )}
     </Layout>
