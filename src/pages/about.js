@@ -28,7 +28,8 @@ const About = () => {
             Our Team
           </h3>
           <p className="hero-author-text">
-            Satake Yusuke<br />
+            Yusuke Satake<br />
+            Takumi Nishimura<br />
           </p>
         </div>
       </section>
