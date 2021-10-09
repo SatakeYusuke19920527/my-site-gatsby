@@ -17,10 +17,11 @@ export default function Home() {
         </h1>
         <div className="page-body">
           <h3 className="page-second-title">
-            モダン開発に特化したプログラミングスクール
+            自分のアイディアを形にするプログラミングスクール
           </h3>
           <p className="hero-author-text">
-            ProAcaはモダン開発に特化したプログラミングスクールです。<br />
+            ProAcaは自分のアイディアを形作ることを目標にしています。<br />
+            洋服が好きだったり、スポーツが好きだったり。そんな自分の好きをサービスとして形にし、世界にリリースしていきます。<br />
             完全未経験からWEBサイト制作やSNSアプリ開発まで実装できるようになります。<br />
             プログラミングを通して成長し、進化した自分に感動してください。
           </p>
