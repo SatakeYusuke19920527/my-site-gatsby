@@ -38,7 +38,7 @@ export default function Blog() {
         </h1>
         <div className="page-body">
           <h3 className="page-second-title">
-            日々の活動記録
+            dev ...
           </h3>
         </div>
       </section>
