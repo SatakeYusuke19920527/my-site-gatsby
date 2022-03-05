@@ -16,13 +16,13 @@ const About = () => {
             Our Mission
           </h3>
           <p className="hero-author-text">
-            Special Oneの育成<br />
+            Mission作成予定<br />
           </p>
           <h3 className="page-second-title">
             Our Vision
           </h3>
           <p className="hero-author-text">
-            自分の思いを具現化させることができる人で溢れる社会を作ります。<br />
+            Vision作成予定<br />
           </p>
           <h3 className="page-second-title">
             Our Team
