@@ -37,6 +37,13 @@ export default function Header() {
               </Link>
             </h1>
           </li>
+          <li>
+            <h1>
+              <Link href="https://www.google.com/?hl=ja" className="header-link">
+                  LOGIN
+              </Link>
+            </h1>
+          </li>
         </ol>
       </nav>
     </header>
