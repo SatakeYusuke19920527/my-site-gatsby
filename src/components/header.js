@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
-import "../styles/style.css"
+import { Link } from "gatsby";
+import React from "react";
+import "../styles/style.css";
 
 export default function Header() {
   return (
@@ -34,13 +34,6 @@ export default function Header() {
             <h1>
               <Link to="/contact" className="header-link">
                   CONTACT
-              </Link>
-            </h1>
-          </li>
-          <li>
-            <h1>
-              <Link href="https://www.google.com/?hl=ja" className="header-link">
-                  LOGIN
               </Link>
             </h1>
           </li>
